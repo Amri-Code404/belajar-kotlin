@@ -43,8 +43,9 @@ fun main() {
 
     val verifikasi = Files.readAllLines(path)
 
-    println("verifikasi: ${verifikasi.size}")
+    verifikasi[52] = verifikasi[52].replace("username","====================================")
 
-    println("baris ke 52: ${verifikasi[44]}")
+    Files.write(path,verifikasi)
+    println("baris ke 52: ${verifikasi[52]}")
 
 }

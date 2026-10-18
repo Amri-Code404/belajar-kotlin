@@ -1,6 +1,4 @@
-{
-        "Waktu Diambil": "2026-10-17T20:02:02Z",
-        "Data": [
+[
   {
     "id": 1,
     "name": "Leanne Graham",
@@ -232,4 +230,3 @@
     }
   }
 ]
-    }
